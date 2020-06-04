@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+    <!-- <meta charset="utf-8"> -->
+    <title>CSS Demo</title>
+    <link rel="stylesheet" href="css/mainStyle.css">
+    <!-- I moved this script tag to the top so it would run my js file first, before the html, so that when my function call on line 28, will be able to run once the interpreter reads down throught the html.  -->
+    <script src="js/app.js"></script>
+</head>
+
+<body>
+
+    <script>document.write('<h3>Welcome!</h3>');</script>
+
+
+    <header>
+        <h1 id="hOneTag">Company Name</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="https://www.deltavcodeschool.com/">DeltaV Code</a></li>
+                <li><a href="#">Nav Item 3</a></li>
+                <li><a href="#">Nav Item 4</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- This script tag is calling my function that is in me js file called withMyFunctionName(); -->
+    <script> document.write(withMyFunctionName()); </script>
+
+
+
+    
+
+
+    <main>
+        <img id="dvLogo" alt="DeltaV Company Logo" src="images/dvLogo.png" />
+        <ul>
+            <li><img src="http://placehold.it/300x200"></li>
+            <li> <img src="http://placehold.it/300x200"> </li>
+            <li> <img src="http://placehold.it/300x200"> </li>
+        </ul>
+    </main>
+    <footer> </footer>
+
+    
+</body>
+
+</html>
